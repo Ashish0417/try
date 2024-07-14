@@ -1,0 +1,114 @@
+.upload {
+    width: 100%;
+    min-height: 100vh;
+    /* background: linear-gradient(rgba(8,0,58,0.7),rgba(8,0,58,0.7))); */
+    background-size: cover;
+    background-position: center;
+    color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 10px;
+}
+
+.upload-info {
+    /* box-shadow: 0 0 20px rgba(0, 0, 0, 0.1); */
+    text-align: center;
+    /* max-width: 800px; */
+
+
+}
+
+.upload-info h2 {
+    font-size: 50px;
+    font-weight: 500;
+    padding-top: 50px;
+}
+
+.upload-photo-place {
+    display: flex;
+    /* align-items: center; */
+    align-items: stretch;
+    justify-content: space-between;
+    /* box-shadow: 0 0 20px rgba(0, 0, 0, 0.1); */
+    padding: 10px;
+    margin: 30px;
+}
+
+.upload-photo-place img {
+    width: 50%;
+    /* height: 50%; */
+    height: auto;
+    border-radius: 10px;
+    margin: 20px;
+    object-fit: cover;
+    
+}
+
+input {
+    display: none;
+}
+
+.dragdrop {
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    padding: 20px;
+    border: 1px dashed rgb(67, 67, 67);
+    border-radius: 10px;
+    margin-bottom: 20px;
+    cursor: pointer;
+
+
+}
+
+.dragdrop h4 {
+    margin: 10px;
+    padding: 5px;
+
+}
+
+.upload-dragdrop {
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    width: 48%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 20px;
+    border-radius: 10px;
+    /* width: 100%; */
+
+}
+
+.privacy-note {
+    color: #626262;
+    font-size: 10px;
+}
+
+.upload-dragdrop button {
+    background-color: #a020f0;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 16px;
+    width: 80%;
+    margin-bottom: 40px;
+    margin-top: 40px;
+}
+
+.upload-dragdrop button:hover {
+    background-color: #8b00e0;
+}
+
+.upload-photo-place img,
+.upload-dragdrop {
+    flex: 1;
+    display: flex;
+}
